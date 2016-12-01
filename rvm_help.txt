@@ -1,0 +1,8 @@
+rvm help
+rvm list known
+rvm install 2.3.3
+rvm list
+ruby -v
+which ruby
+gem install pry
+gem install simplecov

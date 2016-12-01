@@ -5,7 +5,7 @@
 class Coffeemachine
   
   @@machine_counter = 0
-  attr_accessor(:coffee, :water, :tank_coffee, :tank_water)
+  attr_accessor(:coffee, :water, :tank_coffee, :tank_water, :count_available)
 
   def self.count
     return @@machine_counter
@@ -22,8 +22,8 @@ class Coffeemachine
     @count_available = 0
   end
 
-  def fill_coffee(kg)
-    @coffee = @coffee + (kg * 1000)
+  def fill_coffee(g)
+    @coffee = @coffee + g
     @maintenance = false
   end
 
@@ -60,7 +60,7 @@ class Coffeemachine
       puts "Coffee available: #{@coffee}"
       puts "Water available: #{@water}"
       puts "Maintenance: #{@maintenance}"
-      puts "Until cleaning #{@count_available - 12} cups of coffee."
+      puts "Until cleaning #{12 - @count_available} cups of coffee."
   end
 
   class KaffeeMaschinenFatalError < StandardError
