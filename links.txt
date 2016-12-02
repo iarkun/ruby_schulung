@@ -4,3 +4,17 @@ http://rhnh.net/2006/06/25/yaml-tutorial
 http://rubular.com/
 https://github.com/vim-syntastic/syntastic
 http://ruby-doc.org/
+Bücher:
+
+Practical Object-Oriented Design in Ruby: An Agile Primer (Addison-Wesley Professional Ruby) (Englisch) Taschenbuch – 15. September 2012
+von Sandi Metz 
+
+99 Bottles of OOP Sandi Metz & Katrina Owen
+
+Metaprogramming Ruby 2 - Program Like the Ruby Pros by Paolo Perrotta
+
+
+---------------------
+Ruby Weekly Newsletter
+
+
