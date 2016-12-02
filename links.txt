@@ -1,0 +1,6 @@
+https://www.heroku.com/
+http://sequel.jeremyevans.net/
+http://rhnh.net/2006/06/25/yaml-tutorial
+http://rubular.com/
+https://github.com/vim-syntastic/syntastic
+http://ruby-doc.org/

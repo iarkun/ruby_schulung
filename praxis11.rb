@@ -56,11 +56,7 @@ class Coffeemachine
   end
 
   def info
-      puts "Counter: #{@coffee_counter}"
-      puts "Coffee available: #{@coffee}"
-      puts "Water available: #{@water}"
-      puts "Maintenance: #{@maintenance}"
-      puts "Until cleaning #{12 - @count_available} cups of coffee."
+      return "Counter: #{@coffee_counter} Coffee available: #{@coffee} Water available: #{@water} Maintenance: #{@maintenance} Until cleaning #{12 - @count_available} cups of coffee."
   end
 
   class KaffeeMaschinenFatalError < StandardError
